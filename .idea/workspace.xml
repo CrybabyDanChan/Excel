@@ -1,29 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7ad5f6c-fed0-4a0f-8c44-09f7053710d7" name="Default Changelist" comment="" />
+    <list default="true" id="f7ad5f6c-fed0-4a0f-8c44-09f7053710d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/favicon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1j3RPivqMS2Vc9sAk0JKT6ac0wn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
-    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/index.js" working-dir="$PROJECT_DIR$">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.main.js">
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/dist/main.js" working-dir="$PROJECT_DIR$/dist">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main.js" />
         <item itemvalue="Node.js.index.js" />
       </list>
     </recent_temporary>
@@ -37,28 +81,56 @@
       <option name="presentableId" value="Default" />
       <updated>1603030767668</updated>
       <workItem from="1603030768981" duration="3054000" />
+      <workItem from="1603040357383" duration="4324000" />
     </task>
+    <task id="LOCAL-00001" summary="adding webpack">
+      <created>1603043469687</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603043469687</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding webpack" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding webpack" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1324" height="187" key="GridCell.Tab.0.bottom" timestamp="1603040351168">
+    <state width="1324" height="187" key="GridCell.Tab.0.bottom" timestamp="1603044018755">
       <screen x="0" y="22" width="1366" height="746" />
     </state>
-    <state width="1324" height="187" key="GridCell.Tab.0.bottom/0.22.1366.746@0.22.1366.746" timestamp="1603040351168" />
-    <state width="1324" height="187" key="GridCell.Tab.0.center" timestamp="1603040351166">
+    <state width="1324" height="187" key="GridCell.Tab.0.bottom/0.22.1366.746@0.22.1366.746" timestamp="1603044018755" />
+    <state width="1324" height="187" key="GridCell.Tab.0.center" timestamp="1603044018753">
       <screen x="0" y="22" width="1366" height="746" />
     </state>
-    <state width="1324" height="187" key="GridCell.Tab.0.center/0.22.1366.746@0.22.1366.746" timestamp="1603040351166" />
-    <state width="1324" height="187" key="GridCell.Tab.0.left" timestamp="1603040351165">
+    <state width="1324" height="187" key="GridCell.Tab.0.center/0.22.1366.746@0.22.1366.746" timestamp="1603044018753" />
+    <state width="1324" height="187" key="GridCell.Tab.0.left" timestamp="1603044018752">
       <screen x="0" y="22" width="1366" height="746" />
     </state>
-    <state width="1324" height="187" key="GridCell.Tab.0.left/0.22.1366.746@0.22.1366.746" timestamp="1603040351165" />
-    <state width="1324" height="187" key="GridCell.Tab.0.right" timestamp="1603040351167">
+    <state width="1324" height="187" key="GridCell.Tab.0.left/0.22.1366.746@0.22.1366.746" timestamp="1603044018752" />
+    <state width="1324" height="187" key="GridCell.Tab.0.right" timestamp="1603044018754">
       <screen x="0" y="22" width="1366" height="746" />
     </state>
-    <state width="1324" height="187" key="GridCell.Tab.0.right/0.22.1366.746@0.22.1366.746" timestamp="1603040351167" />
+    <state width="1324" height="187" key="GridCell.Tab.0.right/0.22.1366.746@0.22.1366.746" timestamp="1603044018754" />
+    <state x="283" y="134" key="Vcs.Push.Dialog.v2" timestamp="1603043476996">
+      <screen x="0" y="22" width="1366" height="746" />
+    </state>
+    <state x="283" y="134" key="Vcs.Push.Dialog.v2/0.22.1366.746@0.22.1366.746" timestamp="1603043476996" />
   </component>
 </project>
