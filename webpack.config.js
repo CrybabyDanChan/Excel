@@ -18,9 +18,6 @@ module.exports = {
         contentBase: './dist',
         port: 3000,
         hot: isDev,
-        before: () => {
-            console.log('http://localhost:3000')
-        }
     },
     output: {
         filename: filename('js'),
