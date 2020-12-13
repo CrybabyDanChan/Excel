@@ -1,3 +1,1 @@
-import './module';
-import './sass/index.sass';
-
+import './scss/index.scss';
