@@ -20,10 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73eb17fe-0fee-4674-a4df-ce59009398b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/excel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/dashboard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/formula.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/table.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/toolbar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/index.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/favicon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/index.sass" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +47,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
   </component>
   <component name="ProjectId" id="1kJwSdAhkrQWvuMQRBADstX26md" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -46,15 +63,41 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.selected.package.eslint" value="$USER_HOME$/.nvm/versions/node/v12.18.2/lib/node_modules/eslint" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="C:\Users\User\Desktop\excel\node_modules\eslint" />
     <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\excel\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -72,6 +115,11 @@
       <option name="presentableId" value="Default" />
       <updated>1605432006716</updated>
       <workItem from="1605432009693" duration="3619000" />
+      <workItem from="1606931857415" duration="1562000" />
+      <workItem from="1606983105894" duration="32000" />
+      <workItem from="1607783743598" duration="2337000" />
+      <workItem from="1607788191723" duration="146000" />
+      <workItem from="1607875010608" duration="878000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -94,15 +142,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="merge conflict" />
     <option name="LAST_COMMIT_MESSAGE" value="merge conflict" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="336" y="139" key="#ESLint" timestamp="1605436710237">
-      <screen x="0" y="22" width="1366" height="746" />
-    </state>
-    <state x="336" y="139" key="#ESLint/0.22.1366.746@0.22.1366.746" timestamp="1605436710237" />
-    <state x="184" y="45" key="SettingsEditor" timestamp="1605436670365">
-      <screen x="0" y="22" width="1366" height="746" />
-    </state>
-    <state x="184" y="45" key="SettingsEditor/0.22.1366.746@0.22.1366.746" timestamp="1605436670365" />
   </component>
 </project>

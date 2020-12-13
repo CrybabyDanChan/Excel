@@ -3,6 +3,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
+
 
 const isProd = process.env.NODE_ENV === 'production';
 const isDev = !isProd;
@@ -53,7 +55,7 @@ module.exports = {
     new CopyPlugin({
       patterns: [
         {
-          from: path.resolve(__dirname, 'src/assets/favicon.jpg'),
+          from: path.resolve(__dirname, 'src/favicon.ico'),
           to: path.resolve(__dirname, 'dist/assets'),
         },
       ],
@@ -79,6 +81,12 @@ module.exports = {
         exclude: /node_modules/,
         use: jsLoaders(),
       },
+    ],
+  },
+  optimization: {
+    minimize: true,
+    minimizer: [
+      new CssMinimizerPlugin(),
     ],
   },
 };
