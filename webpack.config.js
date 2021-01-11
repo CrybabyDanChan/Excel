@@ -27,8 +27,8 @@ module.exports = {
   entry: ['@babel/polyfill', './index.js'],
   devtool: isDev ? 'inline-source-map' : false,
   devServer: {
-    contentBase: path.join(__dirname, 'src'),
-    watchContentBase: true,
+    contentBase: path.join(__dirname, 'src'), // FOR HOT RELOAD STYLE
+    watchContentBase: true, // FOR HOT RELOAD STYLE
     port: 3000,
     hot: isDev,
   },
