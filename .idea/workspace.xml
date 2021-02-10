@@ -20,18 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73eb17fe-0fee-4674-a4df-ce59009398b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/excel/Excel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/formula/Formula.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/table/Table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/toolbar/Toolbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/DomListener.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/ExcelComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/excel/Excel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/excel/Excel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/formula/Formula.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/formula/Formula.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/table/Table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/table/Table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/toolbar/Toolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/toolbar/Toolbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/DomListener.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/DomListener.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/ExcelComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/ExcelComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
@@ -110,7 +109,10 @@
       <recent name="C:\Users\User\Desktop\excel\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.index.js">
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/index.js" working-dir="$PROJECT_DIR$/src">
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -123,6 +125,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.index.js" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -149,9 +152,30 @@
       <workItem from="1607788191723" duration="146000" />
       <workItem from="1607875010608" duration="878000" />
       <workItem from="1607929320441" duration="1391000" />
-      <workItem from="1610381368648" duration="617000" />
+      <workItem from="1610381368648" duration="1341000" />
+      <workItem from="1610383328653" duration="1061000" />
+      <workItem from="1610443344027" duration="2139000" />
+      <workItem from="1611082098351" duration="2249000" />
+      <workItem from="1611153834536" duration="604000" />
+      <workItem from="1611590371138" duration="1789000" />
+      <workItem from="1611681887507" duration="629000" />
+      <workItem from="1611940884469" duration="4045000" />
+      <workItem from="1612022208689" duration="209000" />
+      <workItem from="1612093361041" duration="98000" />
+      <workItem from="1612093502220" duration="1161000" />
+      <workItem from="1612107856618" duration="596000" />
+      <workItem from="1612121161188" duration="462000" />
+      <workItem from="1612341006464" duration="2374000" />
+      <workItem from="1612986706908" duration="2045000" />
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="finish html layout">
+      <created>1610382074284</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610382074284</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +195,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="merge conflict" />
-    <option name="LAST_COMMIT_MESSAGE" value="merge conflict" />
+    <MESSAGE value="finish html layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish html layout" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/excel/Excel.js</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
