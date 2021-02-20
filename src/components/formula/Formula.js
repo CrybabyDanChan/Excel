@@ -6,14 +6,18 @@ export class Formula extends ExcelComponent {
   constructor($root) {
     super($root, {
       name: 'Formula',
-      listeners: [],
+      listeners: ['input'],
     });
   }
 
   toHTML() {
     return `
       <div class="info">fx</div>
-      <div class="input" contenteditable spellcheck="false"></div>
+      <input class="input" />
     `;
+  }
+
+  onInput(event) {
+    console.log(event.target.textContent);
   }
 }
