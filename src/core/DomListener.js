@@ -18,11 +18,20 @@ export class DomListener {
         throw new Error('Error');
       }
 
-      this.$root.on(listener, this[method]).bind(this);
+      this[method] = this[method].bind(this);
+      this.$root.on(listener, this[method]);
     });
   }
 
   removeDOMListeners() {
+    this.listeners.forEach((listener) => {
+      const method = capitalize(listener);
 
+      if (!this[method]) {
+        throw new Error('Error');
+      }
+
+      this.$root.off(listener, this[method]);
+    });
   }
 }
